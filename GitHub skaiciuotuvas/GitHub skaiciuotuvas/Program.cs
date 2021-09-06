@@ -8,7 +8,7 @@ namespace GitHub_skaiciuotuvas
         {
             while (true)
             {
-                Console.WriteLine("\nIveskite pasirinkima \n1.Lyginiu skaiciu spausdimas \n2.Nelyginiu skaiciu spausdimas");
+                Console.WriteLine("\nIveskite pasirinkima \n1.Lyginiu skaiciu spausdimas \n2.Nelyginiu skaiciu spausdimas\n3. Sudetis \n4.Atimtis \n5.Dalyba \n6.Daugyba");
                 int Pasirinkimas = int.Parse(Console.ReadLine());
                 if (Pasirinkimas == 1)
                 {
